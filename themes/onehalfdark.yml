@@ -1,0 +1,117 @@
+colors:
+  # Original "one half dark" theme by sonph
+  # https://github.com/sonph/onehalf
+  background_color: '282c34'
+  white: 'dcdfe4'
+  red: 'e06c75'
+  green: '98c379'
+  yellow: 'e5c07b'
+  blue: '61afef'
+  pink: 'c678dd'
+  cyan: '56b6c2'
+
+  light_red: 'e06c75'
+  light_green: '98c379'
+  light_yellow: 'e5c07b'
+  light_blue: '61afef'
+  light_pink: 'c678dd'
+  light_cyan: '56b6c2'
+
+  black: '282c34'
+  gray: '5c6370'
+  darkergray: '474e5d'
+
+core:
+  regular_file: {}
+
+  directory:
+    foreground: blue
+
+  executable_file:
+    foreground: red
+    font-style: bold
+
+  symlink:
+    foreground: pink
+
+  broken_symlink:
+    foreground: black
+    background: red
+  missing_symlink_target:
+    foreground: black
+    background: red
+
+  fifo:
+    foreground: black
+    background: blue
+
+  socket:
+    foreground: black
+    background: pink
+
+  character_device:
+    foreground: pink
+    background: darkergray
+
+  block_device:
+    foreground: cyan
+    background: darkergray
+
+  normal_text:
+    {}
+
+  other_writable:
+    {}
+
+  sticky:
+    {}
+
+  sticky_other_writable:
+    {}
+
+text:
+  special:
+    foreground: background_color
+    background: yellow
+
+  todo:
+    font-style: bold
+
+  licenses:
+    foreground: gray
+
+  configuration:
+    foreground: yellow
+
+  other:
+    foreground: yellow
+
+markup:
+  foreground: yellow
+
+programming:
+  source:
+    foreground: green
+
+  tooling:
+    foreground: light_green
+
+    continuous-integration:
+      foreground: green
+
+media:
+  foreground: light_pink
+
+office:
+  foreground: red
+
+archives:
+  foreground: cyan
+  font-style: underline
+
+executable:
+  foreground: red
+  font-style: bold
+
+unimportant:
+  foreground: darkergray
